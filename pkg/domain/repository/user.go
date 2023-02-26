@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/cocoide/jwt-ddd/pkg/domain/model"
+	model "github.com/cocoide/jwt-ddd/pkg/domain/model"
 )
   type Repository interface {
 	CreateUser(ctx context.Context, user *model.User)(*model.User ,error )
